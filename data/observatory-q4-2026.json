@@ -1,0 +1,251 @@
+{
+  "name": "Three Impact AI Search Observatory, Q4 2026 edition",
+  "source": "https://threeimpact.com/ai-search-observatory",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "pulled": "2026-10-31",
+  "sites": 12,
+  "crawlWindow": {
+    "from": "2026-08-01",
+    "to": "2026-10-30",
+    "days": 91
+  },
+  "referralWindow": {
+    "from": "2026-08-09",
+    "to": "2026-10-30",
+    "days": 83
+  },
+  "method": "https://threeimpact.com/ai-search-observatory#methodology",
+  "note": "Aggregates only: no site is named and every figure covers at least 5 sites. Shares are site-weighted means.",
+  "purposeShare": [
+    {
+      "purpose": "training",
+      "share": 40.4
+    },
+    {
+      "purpose": "user",
+      "share": 35.1
+    },
+    {
+      "purpose": "search",
+      "share": 24.5
+    }
+  ],
+  "bots": [
+    {
+      "ua": "ChatGPT-User",
+      "operator": "OpenAI",
+      "purpose": "user",
+      "sites": 12,
+      "share": 28.1
+    },
+    {
+      "ua": "OAI-SearchBot",
+      "operator": "OpenAI",
+      "purpose": "search",
+      "sites": 12,
+      "share": 14.9
+    },
+    {
+      "ua": "ClaudeBot",
+      "operator": "Anthropic",
+      "purpose": "training",
+      "sites": 12,
+      "share": 14.7
+    },
+    {
+      "ua": "GPTBot",
+      "operator": "OpenAI",
+      "purpose": "training",
+      "sites": 12,
+      "share": 10.1
+    },
+    {
+      "ua": "Meta-ExternalAgent",
+      "operator": "Meta",
+      "purpose": "training",
+      "sites": 11,
+      "share": 7.2
+    },
+    {
+      "ua": "PerplexityBot",
+      "operator": "Perplexity",
+      "purpose": "search",
+      "sites": 12,
+      "share": 6.9
+    },
+    {
+      "ua": "Bytespider",
+      "operator": "ByteDance",
+      "purpose": "training",
+      "sites": 10,
+      "share": 4.5
+    },
+    {
+      "ua": "Claude-User",
+      "operator": "Anthropic",
+      "purpose": "user",
+      "sites": 12,
+      "share": 4.2
+    },
+    {
+      "ua": "CCBot",
+      "operator": "Common Crawl",
+      "purpose": "training",
+      "sites": 10,
+      "share": 2.2
+    },
+    {
+      "ua": "Perplexity-User",
+      "operator": "Perplexity",
+      "purpose": "user",
+      "sites": 8,
+      "share": 2.1
+    },
+    {
+      "ua": "Claude-SearchBot",
+      "operator": "Anthropic",
+      "purpose": "search",
+      "sites": 8,
+      "share": 1.4
+    },
+    {
+      "ua": "DeepSeekBot",
+      "operator": "DeepSeek",
+      "purpose": "training",
+      "sites": 8,
+      "share": 0.8
+    },
+    {
+      "ua": "YouBot",
+      "operator": "You.com",
+      "purpose": "search",
+      "sites": 9,
+      "share": 0.7
+    },
+    {
+      "ua": "DuckAssistBot",
+      "operator": "DuckDuckGo",
+      "purpose": "search",
+      "sites": 9,
+      "share": 0.5
+    },
+    {
+      "ua": "VelenPublicWebCrawler",
+      "operator": "Velen",
+      "purpose": "training",
+      "sites": 7,
+      "share": 0.5
+    },
+    {
+      "ua": "Google-CloudVertexBot",
+      "operator": "Google",
+      "purpose": "user",
+      "sites": 7,
+      "share": 0.3
+    },
+    {
+      "ua": "cohere-ai",
+      "operator": "Cohere",
+      "purpose": "training",
+      "sites": 6,
+      "share": 0.3
+    },
+    {
+      "ua": "MistralAI-User",
+      "operator": "Mistral",
+      "purpose": "user",
+      "sites": 5,
+      "share": 0.2
+    }
+  ],
+  "operators": [
+    {
+      "operator": "OpenAI",
+      "share": 53,
+      "sites": 12
+    },
+    {
+      "operator": "Anthropic",
+      "share": 20.4,
+      "sites": 12
+    },
+    {
+      "operator": "Perplexity",
+      "share": 8.9,
+      "sites": 12
+    },
+    {
+      "operator": "Meta",
+      "share": 7.4,
+      "sites": 11
+    },
+    {
+      "operator": "ByteDance",
+      "share": 4.6,
+      "sites": 10
+    },
+    {
+      "operator": "Common Crawl",
+      "share": 2.2,
+      "sites": 10
+    },
+    {
+      "operator": "All others",
+      "share": 3.5,
+      "sites": 12
+    }
+  ],
+  "trend": {
+    "cohortSites": 8,
+    "months": [
+      {
+        "month": "May",
+        "training": 1254,
+        "search": 205,
+        "user": 715,
+        "median": 97,
+        "googlebot": 549
+      },
+      {
+        "month": "Jun",
+        "training": 1577,
+        "search": 546,
+        "user": 1905,
+        "median": 269,
+        "googlebot": 1244
+      },
+      {
+        "month": "Jul",
+        "training": 2176,
+        "search": 848,
+        "user": 2008,
+        "median": 444,
+        "googlebot": 1414
+      },
+      {
+        "month": "Aug",
+        "training": 2585,
+        "search": 1203,
+        "user": 2634,
+        "median": 698,
+        "googlebot": 1230
+      },
+      {
+        "month": "Sep",
+        "training": 1769,
+        "search": 1011,
+        "user": 1564,
+        "median": 474,
+        "googlebot": 862
+      },
+      {
+        "month": "Oct",
+        "training": 2629,
+        "search": 947,
+        "user": 1387,
+        "median": 342,
+        "googlebot": 1105
+      }
+    ]
+  }
+}

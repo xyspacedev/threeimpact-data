@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+type: dataset
+title: "Three Impact AI Search Observatory and AI crawler registry"
+authors:
+  - family-names: Halat
+    given-names: Mahmoud
+    website: "https://www.mahmoudhalat.com"
+license: CC-BY-4.0
+url: "https://threeimpact.com/ai-search-observatory"
+version: "2026-Q4"
+date-released: 2026-11-06
+keywords:
+  - AI crawlers
+  - user agents
+  - robots.txt
+  - AI search
+  - small business websites

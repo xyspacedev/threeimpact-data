@@ -1,0 +1,19 @@
+user_agent,operator,purpose,sites_seen_of_12,mean_share_of_ai_fetches_pct,window_from,window_to
+ChatGPT-User,OpenAI,User-triggered fetch,12,28.1,2026-08-01,2026-10-30
+OAI-SearchBot,OpenAI,Search index,12,14.9,2026-08-01,2026-10-30
+ClaudeBot,Anthropic,Training crawl,12,14.7,2026-08-01,2026-10-30
+GPTBot,OpenAI,Training crawl,12,10.1,2026-08-01,2026-10-30
+Meta-ExternalAgent,Meta,Training crawl,11,7.2,2026-08-01,2026-10-30
+PerplexityBot,Perplexity,Search index,12,6.9,2026-08-01,2026-10-30
+Bytespider,ByteDance,Training crawl,10,4.5,2026-08-01,2026-10-30
+Claude-User,Anthropic,User-triggered fetch,12,4.2,2026-08-01,2026-10-30
+CCBot,Common Crawl,Training crawl,10,2.2,2026-08-01,2026-10-30
+Perplexity-User,Perplexity,User-triggered fetch,8,2.1,2026-08-01,2026-10-30
+Claude-SearchBot,Anthropic,Search index,8,1.4,2026-08-01,2026-10-30
+DeepSeekBot,DeepSeek,Training crawl,8,0.8,2026-08-01,2026-10-30
+YouBot,You.com,Search index,9,0.7,2026-08-01,2026-10-30
+DuckAssistBot,DuckDuckGo,Search index,9,0.5,2026-08-01,2026-10-30
+VelenPublicWebCrawler,Velen,Training crawl,7,0.5,2026-08-01,2026-10-30
+Google-CloudVertexBot,Google,User-triggered fetch,7,0.3,2026-08-01,2026-10-30
+cohere-ai,Cohere,Training crawl,6,0.3,2026-08-01,2026-10-30
+MistralAI-User,Mistral,User-triggered fetch,5,0.2,2026-08-01,2026-10-30
